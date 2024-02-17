@@ -16,8 +16,6 @@ def email_verification(email):
                             continue
                         else:
                             d=1
-
-
                     if k==1 or j==1 or d==1:
                         print("wrong email")   
                     else:
@@ -29,7 +27,5 @@ def email_verification(email):
                 print("wrong email")
     else:
         print("wrong email")
-
-
 user_email = input("Enter your email address: ")
 email_verification(user_email)
